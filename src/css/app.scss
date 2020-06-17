@@ -1,0 +1,62 @@
+// app global css in SCSS form
+
+// 1. Colors
+
+$background: #FECE1A;
+$background1: #101316;
+$background2: #827f740f;
+$whiteText: #ffffff;
+
+// 2. Mixins
+
+@mixin flex ($direction, $align, $wrap) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $align;
+    flex-wrap: $wrap;
+}
+
+@mixin mainButton ($color, $hoverColor, $padding, $iconMargin) {
+    display: inline-flex;
+    border: 1px solid $color;
+    background: none;
+    outline: none;
+    padding: $padding;
+    color: $color;
+    i {
+        margin: $iconMargin;
+    }
+    span {
+        text-transform: uppercase;
+        line-height: 1;
+        font-size: 0.7rem;
+        align-self: center;
+        letter-spacing: 1.2px;
+    }
+    &:hover {
+        border-color: $hoverColor;
+        cursor: pointer;
+        color: $hoverColor;
+        i {
+            color: $hoverColor !important;
+        }
+    }    
+}
+
+@mixin coloredButton ($color, $hoverColor, $backgroundColor, $hoverBackgroundColor, $padding) {
+    // display: inline-flex;
+    background: $backgroundColor;
+    outline: none;
+    padding: $padding;
+    color: $color;
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 0.7rem;
+    letter-spacing: 1.2px;
+    border: 1px solid $backgroundColor;
+    &:hover {
+        background: $hoverBackgroundColor;
+        cursor: pointer;
+        color: $hoverColor;
+    }
+}

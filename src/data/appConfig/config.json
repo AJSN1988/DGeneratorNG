@@ -1,0 +1,95 @@
+{
+    "server": {
+        "host": "192.168.100.1",
+        "user": "user",
+        "password": "userPassword",
+        "transport": 22,
+        "remotePort": 3306,
+        "cdrlocation": "/usr/cdr_for_utm"
+    },
+    "database": {
+        "user": "UTM5",
+        "password": "UTM5",
+        "databasename": "UTM5",
+        "databasehost": "127.0.0.1"
+    },
+    "bills": {
+        "templatepath": "../templates/bill.html",
+        "mtssumm": 33500,
+        "maxbillschunk": "150"
+    },
+    "details": {
+        "civiltemplatepath": "../templates/civilDetail.html",
+        "legaltemplatepath": "../templates/legalDetail.html"
+    },
+    "reports": {
+        "reportnumber": 9,
+        "billnumber": "0",
+        "civilid": 66,
+        "legalid": 65,
+        "csvdelimeter": ";",
+        "forbillstemplatepath": "../templates/reportForBills.html",
+        "allcivilsaccountid": 9999,
+        "allcivilscontract": "GW99999",
+        "agentcontract": "H9999",
+        "financeactnumber": "",
+        "ndscode": 1,
+        "ndsvalue": 1.2,
+        "mnservicecode": 10,
+        "mgservicecode": 12,
+        "zoneservicecode": 14,
+        "mnzoneid": 1,
+        "mgzoneid": 2,
+        "inzonezoneid": 3,
+        "trunkstemplatepath": "../templates/trunks.html"
+    },
+    "operators": [
+        {
+            "operatorname": "Ростелеком",
+            "type": "Присоединение на местном уровне",
+            "typecode": 1,
+            "trunksid": 1,
+            "prefixes": "51|4551|52|4552|53|4553|54|4554|20|4520|21|4521|22|4522|23|4523|24|4524|25|4525|73|4573|60|4560|62|4562|64|4564|65|4565"
+        },
+        {
+            "operatorname": "Вымпелком",
+            "type": "Присоединение на зоновом междугороднем и международном уровне",
+            "typecode": 2,
+            "trunksid": 5,
+            "prefixes": "8800|8|810"
+        }
+    ],
+    "users": [
+        {
+            "username": "admin",
+            "password": "admin123",
+            "admin": true,
+            "email": "test@test.ru",
+            "fullname": "Иванов Иван"
+        },
+        {
+            "username": "micha",
+            "password": "micha123",
+            "admin": "true",
+            "email": "michel@еуые.ru",
+            "fullname": "Михайлов Михаил"
+        },
+        {
+            "username": "gala",
+            "password": "gala123",
+            "admin": "false",
+            "email": "test@test.ru",
+            "fullname": "Галинова Галина"
+        }
+    ],
+    "cdr": {
+        "pattern": "mta"
+    },
+    "mail": {
+        "server": "smtp.test.com",
+        "port": 465,
+        "secure": true,
+        "username": "dg@test.com",
+        "password": "testMailPassword"
+    }
+}

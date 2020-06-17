@@ -1,0 +1,51 @@
+{
+  "name": "dgenerator-ng",
+  "version": "1.0.1",
+  "description": "App for creating company's clients payment docs and some b2b reports",
+  "productName": "DGenerator-NG",
+  "cordovaId": "org.cordova.quasar.app",
+  "capacitorId": "",
+  "author": "Alexey Kineev <atnr@bk.ru>",
+  "private": true,
+  "scripts": {
+    "start:electron": "quasar dev -m electron",
+    "build:electron": "quasar build -m electron && copyfiles --flat src/data/appConfig/* dist/electron/DGenerator-NG-win32-x64/resources && copyfiles --flat src/data/templates/* dist/electron/DGenerator-NG-win32-x64/resources/templates",
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "handlebars": "^4.7.3",
+    "mysql2": "^2.1.0",
+    "nodemailer": "^6.4.6",
+    "qrcode": "^1.4.4",
+    "quasar": "^1.0.0",
+    "ssh2": "^0.8.9",
+    "tunnel-ssh": "^4.1.4"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "devtron": "^1.4.0",
+    "electron": "^7.1.13",
+    "electron-debug": "^3.0.1",
+    "electron-devtools-installer": "^2.2.4",
+    "electron-packager": "^14.2.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-vue": "^6.1.2"
+  },
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ],
+  "resolutions": {
+    "@babel/parser": "7.7.5"
+  }
+}
