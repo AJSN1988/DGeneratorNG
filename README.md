@@ -12,10 +12,10 @@ Windows x86\64
 
 ## UI Samples
 
-![Start screen](https://gfycat.com/rectangularscarceeastsiberianlaika)
+![Screen 1](gif/1.gif)
 
-![Start screen](https://gfycat.com/singlenaughtyfattaileddunnart)
+![Screen 2](https://gfycat.com/singlenaughtyfattaileddunnart)
 
-![Start screen](https://gfycat.com/meagerornateirishdraughthorse)
+![Screen 3](https://gfycat.com/meagerornateirishdraughthorse)
 
-![Start screen](https://gfycat.com/pointlessbountifulhorsechestnutleafminer)
+![Screen 4](https://gfycat.com/pointlessbountifulhorsechestnutleafminer)
