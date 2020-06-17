@@ -14,8 +14,8 @@ Windows x86\64
 
 ![Screen 1](gif/1.gif)
 
-![Screen 2](https://gfycat.com/singlenaughtyfattaileddunnart)
+![Screen 2](gif/2.gif)
 
-![Screen 3](https://gfycat.com/meagerornateirishdraughthorse)
+![Screen 3](gif/3.gif)
 
-![Screen 4](https://gfycat.com/pointlessbountifulhorsechestnutleafminer)
+![Screen 4](gif/4.gif)
